@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Demo Quiz App</title>
+    <meta name="description" content="Demo Quiz App for Gilbert">
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="mainB justifyC">
+      <header role="header" class="topBar">
+        <a href="index.html" class="title">
+          <h1 title="Brain Timer" role="heading">BRAIN TIMER</h1>
+        </a>
+        <h3 class="timer">you have <span class="timerCount"> 360 </span> seconds</h3>
+        <div class="quizStart">
+        <button role="button" type="button" class="startNow uniBut">START</button>
+        </div>
+      </header>
+      <main role="main">
+        <div class="quizMain">
+        </div>
+      </main>
+      <footer role="footer" class="bottomBar">
+        <ul class="information">
+          <li class="questionDisplay"></li>
+          <li class="scoreDisplay"></li>
+        </ul>
+      </footer>
+    </div>
+    <script src="./store.js"></script>
+    <script src="./script.js"></script>   
+  </body>
+</html>
